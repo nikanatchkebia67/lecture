@@ -1,0 +1,119 @@
+header {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.header-container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+li a {
+  color: #000000;
+  font-family: "TBC Contractica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.active {
+  color: #00a3e0;
+  font-weight: 700;
+}
+
+img {
+  margin-right: auto;
+}
+
+h2 {
+  color: #000;
+  font-family: "TBC Contractica";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #000;
+  font-family: "TBC Contractica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.img-text-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+article {
+  max-width: 1220px;
+  width: 100%;
+  margin-left: 110px;
+  padding: 32px 16px;
+}
+
+main {
+  background-color: rgb(246, 246, 246);
+}
+
+.my28 {
+  height: 54px;
+  width: 54px;
+  background-color: #00a3e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  color: #fff;
+  font-family: "TBC Contractica";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+h4 {
+  color: #00a3e0;
+  font-family: "TBC Contractica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-content {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+}
+
+.social-icons {
+  margin-right: 110px;
+  display: flex;
+  gap: 12px;
+}
